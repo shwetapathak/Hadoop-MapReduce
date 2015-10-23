@@ -1,0 +1,7 @@
+hadoop distcp s3n://AKIAJGQE6BZY4X7LYAYA:I4pZdgKnG0NARVeXbz7DZ9F5D97CyRMmtIA0qgJz@hadoopshweta/Climate_data.csv /home
+
+
+hadoop distcp s3n://AKIAJGQE6BZY4X7LYAYA:I4pZdgKnG0NARVeXbz7DZ9F5D97CyRMmtIA0qgJz@hadoopshweta/Climate_data.csv /home
+
+
+hadoop jar ClimateAnalysis.jar TemperatureDriver s3n://AKIAJGQE6BZY4X7LYAYA:I4pZdgKnG0NARVeXbz7DZ9F5D97CyRMmtIA0qgJz@hadoopshweta/Climate_regional.csv  s3n://AKIAJGQE6BZY4X7LYAYA:I4pZdgKnG0NARVeXbz7DZ9F5D97CyRMmtIA0qgJz@hadoopshweta/max_temp_try/
